@@ -1,0 +1,112 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        ul li input {
+            color: #999;
+            padding-left: 45px;
+            border-radius: 10px;
+            border: 0;
+            background: rgba(0,0,0, .3);
+            width: 255px;
+            height: 50px;
+            outline: none;
+            font-size: 16px;
+        }
+
+        .box {
+            flex: 1;
+            height: 100vh;
+            background-image: url(../image/loginBackground.jpg);
+            background-repeat: no-repeat;
+            /* background-position: center center; */
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        .box .logo {
+            padding-top: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 14rem;
+        }
+
+        .box .logo img {
+            width: 150PX;
+        }
+
+        .box ul {
+            height: 8rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .box ul li {
+            margin: 10px 0px;
+        }
+
+        #user {
+            background-image: url(../image/user.png);
+            background-repeat: no-repeat;
+            background-size: 30px;
+            background-position: 10px center;
+
+        }
+        #pwd{
+            background-image: url(../image/pwd.png);
+            background-repeat: no-repeat;
+            background-size: 30px;
+            background-position: 10px center;
+        }
+
+        .register {
+            margin-top: 4rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 2rem;
+        }
+
+        .register a {
+            color: #ddd;
+            text-align: center;
+            line-height: 50px;
+            width: 300px;
+            height: 50px;
+            background-image: linear-gradient(to right,#f3ce25,#ee811a);
+            border-radius: 50px;
+        }
+        .remember{
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            color: #fff;
+        }
+        .remenber_back{
+            width: 285px;
+        }
+        .remember input {
+            width: 25px;
+            height: 25px;
+            margin-right: 5px;
+        }
+        .hint{
+            font-size: 12px;
+            position: absolute;
+            bottom: 20px;
+            color: #ddd;
+            left: 50%;
+            margin-left: -126px;
+        }

@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,ol,li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.box {
+    height: 100vh;
+    background: #f0f0f0;
+}
+.header{
+    height: 14vh;
+    background: #369899;
+}
+.header .logo{
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+.header .logo img {
+    width: 100%;
+}
+.message{
+    margin-top: 15px;
+    color: white;
+    float: left;
+}
+.message p {
+    line-height: 25px;
+}
+.scheme{
+    background: #369899;
+    line-height: 5vh;
+    height: 5vh;
+}
+.scheme a{
+    color: white;
+    display: block;
+    cursor: pointer;
+    float: left;
+    padding-left: 30px;
+    margin-left: 10px;
+}
+.scheme a:nth-child(1){
+    background: url(../image/scheme.png)left center no-repeat;
+}
+.scheme a:nth-child(2){
+    background: url(../image/quit.png)left center no-repeat;
+}
+.main {
+    height: 5vh;
+    background: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+}
+.main .biaoge_title tr td:nth-child(1){
+    flex: 2;
+}
+.main .biaoge_title tr td:nth-child(2){
+    flex: 2;
+}
+.main .biaoge_title tr td:nth-child(3){
+    flex: 2;
+}
+.main ul li:nth-child(1){
+    background: #b4dc54;
+}
+.biaoge_title{
+    text-align: center;
+    line-height: 4.5vh;
+    width: 100%;
+}
+.biaoge_title tr td:nth-child(1){
+    background: #9fd538;
+}
+.biaoge_title tr td:nth-child(1) a{
+    color: white;
+}
+.biaoge_title tr td a{
+    color: #828385;
+}
+.main ul li a {
+    font-size: 14px;
+    color: #666668;
+}
+.main select{
+    outline: none;
+    color: #666668;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+}
+.body{
+    height: 60vh;
+    background: #fff;
+}
+.biaoge {
+    width: 100%;
+    border-top: 1px solid #c7c7c7;
+    border-right: 1px solid #c7c7c7;
+}
+/* tbody {
+    display: flex;
+} */
+.biaoge td {
+    border-bottom: 2px solid #c7c7c7;
+    border-left: 2px solid #c7c7c7;
+}
+/* table tr>td:nth-child(2){
+    padding: 0px 5px;
+} */
+.biaoge tr {
+    text-align: center;
+}
+.biaoge tr td {
+    /* background; */
+    padding: 4px 0px;
+}
+.biaoge tr:nth-child(1) {
+    flex: 1;
+}
+.biaoge tr:nth-child(2) {
+    flex: 2.2;
+}
+.biaoge tr:nth-child(3) {
+    flex: 1.8;
+}
+.biaoge tr:nth-child(4) {
+    flex: 3;
+}
+.biaoge tr:nth-child(5) {
+    flex: 2;
+}
+select{
+    width: 100px;
+    border-radius: 20px;
+    height: 30px;
+}
+.footer{
+    background: #fff;
+    height: 10vh;
+    text-align: center;
+}
+.footer p{
+    cursor: pointer;
+    border: 1px solid #000;
+    background: #d5d5d5;
+    display: inline-block;
+    border-radius: 50px;
+    padding: 5px 10px;
+    margin: 7px 5px;
+}
